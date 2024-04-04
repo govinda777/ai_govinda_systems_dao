@@ -1,0 +1,40 @@
+{
+  "name": "gov_dao_scrape",
+  "description": "Inicia uma operação de web scraping com instruções fornecidas pelo usuário.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "url": {
+        "type": "string",
+        "description": "A URL da página para realizar o web scraping."
+      },
+      "query": {
+        "type": "object",
+        "description": "Objeto contendo funções JavaScript para executar durante o scraping.",
+        "properties": {
+          "func": {
+            "type": "string",
+            "description": "Função para realizar o scraping."
+          },
+          "save": {
+            "type": "string",
+            "description": "Função para decidir se a resposta deve ser salva."
+          },
+          "on_response": {
+            "type": "string",
+            "description": "Função para processar a resposta antes de enviá-la de volta."
+          }
+        },
+        "required": [
+          "func",
+          "save",
+          "on_response"
+        ]
+      }
+    },
+    "required": [
+      "url",
+      "query"
+    ]
+  }
+}
