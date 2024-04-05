@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  overflow-x: hidden;
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+section {
+  padding-top: 50px;
+}
+
+.differential .card-title {
+  font-size: 2.00rem;
+}
+
+h2 {
+  font-size: 2.50rem;
+  padding-bottom: 50px;
+}
+
+.bubble {
+  text-align: center!important;
+}
+
+.bubble img{
+  text-align: center!important;
+}
+
+footer {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.footer-bottom {
+  padding-top: 20px;
+  border-top: 1px solid #ccc;
+  margin-top: 20px;
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.social-media a {
+  margin-right: 10px;
+  color: #333;
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+
+.social-media a:hover {
+  color: #007bff;
+}
