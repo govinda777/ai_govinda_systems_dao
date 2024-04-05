@@ -26,6 +26,8 @@ Para promover a estabilidade e o comprometimento a longo prazo com a nossa DAO, 
 - **61 a 90 dias:** 10% de penalidade.
 - **Após 91 dias:** Sem penalidade.
 
+--
+
 Essas penalidades são projetadas para desencorajar a especulação de curto prazo e alinhar os detentores de tokens aos objetivos de longo prazo da DAO.
 
 ### Finalidade e Uso dos Tokens
