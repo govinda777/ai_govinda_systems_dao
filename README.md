@@ -6,6 +6,12 @@ Additionally, the AI ​​has specific commands, such as `create_report` to gen
 
 It is structured to assist from the conceptual phase to practical implementation, providing tools and specialized consulting, technical support in programming, and preparation for competitive events. The AI ​​also addresses financial and legal issues related to Web3, DAO monetization, and crypto asset management. Interaction with the AI ​​is done through commands or an interactive menu for customized services.
 
+* Onboarding Process by Govinda Systems DAO:
+
+Onboarding Eng : https://drive.google.com/file/d/1-MRSUtJpWVyVeLxWTH080ia5O2_iP_PX/view?usp=sharing
+
+Onboarding Pr BR : https://www.youtube.com/watch?v=OZYdnutPUsE&ab_channel=GovindaSystemsDAO 
+
 # Govinda Systems DAO - Specialized Artificial Intelligence
 
 <div id="header" align="center">
