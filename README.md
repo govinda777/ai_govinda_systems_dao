@@ -168,3 +168,11 @@ Performs an investment analysis, considering return rates, token distribution, a
 To interact with the AI, use the listed commands above or follow the interactive menu to specify your
 
  needs and receive personalized assistance.
+
+ ## Suport and Consulting
+
+ > OrfeoGPT_3.0 in Vercel : https://orfeo-chat.vercel.app/
+
+ <div id="header" align="center">
+  <img src="./img/orfeo3.0_qrcode.jpeg" width="50%"/>
+</div>

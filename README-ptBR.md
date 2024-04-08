@@ -6,6 +6,12 @@ Além disso, a IA possui comandos específicos, como `create_report` para gerar 
 
 Ela está estruturada para auxiliar desde a fase conceitual até a implementação prática, fornecendo ferramentas e consultorias especializadas, suporte técnico em programação e preparação para eventos competitivos. A IA também aborda questões financeiras e legais relacionadas à Web3, monetização de DAOs e gerenciamento de criptoativos. A interação com a IA é feita por meio de comandos ou um menu interativo para serviços personalizados.
 
+* Onboarding Process by Govinda Systems DAO:
+
+Onboarding Eng : https://drive.google.com/file/d/1-MRSUtJpWVyVeLxWTH080ia5O2_iP_PX/view?usp=sharing
+
+Onboarding Pr BR : https://www.youtube.com/watch?v=OZYdnutPUsE&ab_channel=GovindaSystemsDAO 
+
 # Govinda Systems DAO - Inteligência Artificial Especializada
 
 <div id="header" align="center">
