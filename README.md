@@ -10,39 +10,80 @@ Bem-vindo ao repositório da Govinda Systems DAO, sua assistente de inteligênci
   <img src="./img/OrfeoGPT_1.png" width="50%"/>
 </div>
 
+## Diagram Summary
+
 ```mermaid
 mindmap
-direction LR
-root[Govinda Systems DAO - IA Especializada]
-    subbranch1[Links]
-    subbranch2[O que é a Govinda Systems DAO IA?]
-    subbranch3[Especializações]
-        subbranch3_1[Web3 e Criação de DAO]
-        subbranch3_2[Estratégias e Jogos]
-        subbranch3_3[Desenvolvimento de Aplicativos Móveis]
-        subbranch3_4[Financeiro e Legal]
-        subbranch3_5[Preparação para Hackathons]
-        subbranch3_6[Tokens e Governança]
-    subbranch4[Comandos da IA]
-        subbranch4_1[`create_report`]
-        subbranch4_2[`create_report --investment_analysis`]
-    subbranch5[Diagramas Mermaid]
-    subbranch6[Como Usar]
+  Govinda Systems DAO
+    Web3 e Criação de DAO
+    Estratégias e Jogos
+    Desenvolvimento de Aplicativos Móveis
+    Financeiro e Legal
+````
 
-root --> subbranch1
-root --> subbranch2
-root --> subbranch3
-    subbranch3 --> subbranch3_1
-    subbranch3 --> subbranch3_2
-    subbranch3 --> subbranch3_3
-    subbranch3 --> subbranch3_4
-    subbranch3 --> subbranch3_5
-    subbranch3 --> subbranch3_6
-root --> subbranch4
-    subbranch4 --> subbranch4_1
-    subbranch4 --> subbranch4_2
-root --> subbranch5
-root --> subbranch6
+## Diagram mindmap index
+
+```mermaid
+mindmap
+root((mindmap))
+    (Web3 e Criação de DAO)
+        (Tokens)
+        (Governança)
+        (Quais plataformas usar? SOLANA / ETH / BTC?)
+        (Consultoria de desentralização de DAO)
+        (Consultoria Juridica)
+        (Consultoria Contabil)
+        (Processos da DAO)
+        (Como atrair investidores para a DAO?)
+            (Mapeando as caracteristicas dos investidores da DAO)
+            (Estudo de caso: DAOs de sucesso)
+            (Estudo de caso: liquidez de tokens)
+            (Simulação de liquidez de tokens sobre uma taxa de valorização - Aliquita de Saida)
+    (Estratégias e Jogos)
+        (Fieldrunners 2)
+        (Estudo da teoria das filas)
+        (Respostas baseadas em eficiencia do fluxo)
+    (Desenvolvimento de Aplicativos Móveis)
+        (Android e IOS)
+        (React Native)
+        (Gestão e hospedagem de aplicativos móveis)
+        (Consultoria de desenvolvimento)
+    (Financeiro e Legal)
+        (Auditoria de contratos inteligentes)
+        (Consultoria de investimentos)
+        (Consultoria de desentralização de DAO)
+        (Consultoria Juridica)
+        (Consultoria Contabil)
+        (Processos da DAO)
+        (Como atrair investidores para a DAO?)
+            (Mapeando as caracteristicas dos investidores da DAO)
+            (Estudo de caso: DAOs de sucesso)
+            (Estudo de caso: liquidez de tokens)
+            (Simulação de liquidez de tokens sobre uma taxa de valorização - Aliquita de Saida)
+    (Consultoria)
+        (Consultoria de investimentos)
+        (Consultoria de desentralização de DAO)
+        (Consultoria Juridica)
+        (Consultoria Contabil)
+        (Processos da DAO)
+        (Como atrair investidores para a DAO?)
+            (Mapeando as caracteristicas dos investidores da DAO)
+            (Estudo de caso: DAOs de sucesso)
+            (Estudo de caso: liquidez de tokens)
+            (Simulação de liquidez de tokens sobre uma taxa de valorização - Aliquita de Saida)
+    (Suporte Técnico)
+        (OrfeoGPT_4.0 in ChatGPT: https://chat.openai.com/g/g-KnmN5gWmF-orfeogpt)
+        (OrfeoGPT_3.0 in Vercel : https://orfeo-chat.vercel.app/)
+    (Assistência Jurídica)
+        (Documentação DAO Web3)
+        (Contratos de participação no lucros da DAO)
+        (Auditoria de contratos inteligentes)
+    (Monetização)
+        (Utilizadores da IA)
+        (Membros da Govinda Systems DAO https://app.dework.xyz/i/3FIY2qUksD6rSAnSj35LeY)
+    (Treinamento de IAs - treinamos uma IA para você)
+        (Programa de treinamento de IAs : onde selecionamos os melhores profissionais para ensinar a sua IA a resolver um problema específico)
+    (Contabilidade)
 
 ```
 
@@ -61,6 +102,22 @@ Dework card : https://app.dework.xyz/profile/Govinda-80811/board?taskId=0c249843
 ## O que é a Govinda Systems DAO IA?
 
 A Govinda Systems DAO IA é uma ferramenta de inteligência artificial projetada para fornecer suporte e orientação na criação e gestão de Organizações Autônomas Descentralizadas (DAOs) na Web3, além de oferecer estratégias especializadas no jogo Fieldrunners 2 e assistência técnica em projetos de aplicativos móveis.
+
+
+```mermaid
+graph TD;
+  A[Govinda Systems DAO] --> B[Web3 e Criação de DAO];
+  A --> C[Estratégias e Jogos];
+  A --> D[Desenvolvimento de Aplicativos Móveis];
+  A --> E[Financeiro e Legal];
+  B --> F[Consultoria];
+  B --> G[Documentação];
+  C --> H[Fieldrunners 2];
+  D --> I[Suporte Técnico];
+  E --> J[Assistência Jurídica];
+  E --> K[Contabilidade];
+  E --> L[Monetização];
+```
 
 ## Especializações
 
@@ -92,9 +149,6 @@ Gera um relatório com uma apresentação da DAO, objetivos, distribuição de t
 
 ### `create_report --investment_analysis`
 Realiza uma análise de investimento, considerando taxas de retorno, distribuição de tokens e liquidez.
-
-## Diagramas Mermaid
-Utiliza a sintaxe Mermaid para criar diagramas visuais que mapeiam a estrutura e os processos da sua DAO.
 
 ## Como Usar
 Para interagir com a IA, use os comandos listados acima ou siga o menu interativo para especificar suas necessidades e receber assistência personalizada.

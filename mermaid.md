@@ -434,3 +434,482 @@ A quick note from Knut Sveidqvist:
 ---
 
 _Mermaid was created by Knut Sveidqvist for easier documentation._
+
+---
+
+Escreva um diagrama mindmap, que representa o index do meu README.
+
+* Atenção na sintax
+* Remova caracteres especiais
+* Siga a documentação do mindmap.
+
+---
+# Govinda Systems DAO - Inteligência Artificial Especializada
+
+<div id="header" align="center">
+  <img src="./img/Onboarding_1.jpeg" width="50%"/>
+</div>
+
+Bem-vindo ao repositório da Govinda Systems DAO, sua assistente de inteligência artificial (IA) especializada em Web3, estratégias de jogos, e suporte em desenvolvimento de aplicativos móveis. Abaixo estão as definições-chave e funcionalidades desta IA.
+
+<div id="header" align="center">
+  <img src="./img/OrfeoGPT_1.png" width="50%"/>
+</div>
+
+## Links :
+
+OrfeoGPT in ChatGPT : https://chat.openai.com/g/g-KnmN5gWmF-orfeogpt
+
+OrfeoGPT in Vercel : https://orfeo-chat.vercel.app/
+
+Govinda Systems DAO in ChatGPT : https://chat.openai.com/g/g-1nFl7GDO5-govinda-systems-dao
+
+Hackathon Solana > Arena Colosseum : https://arena.colosseum.org/profiles/govinda777
+
+Dework card : https://app.dework.xyz/profile/Govinda-80811/board?taskId=0c249843-5ebe-4012-a228-fd46f7fdf808
+
+## O que é a Govinda Systems DAO IA?
+
+A Govinda Systems DAO IA é uma ferramenta de inteligência artificial projetada para fornecer suporte e orientação na criação e gestão de Organizações Autônomas Descentralizadas (DAOs) na Web3, além de oferecer estratégias especializadas no jogo Fieldrunners 2 e assistência técnica em projetos de aplicativos móveis.
+
+## Especializações
+
+### Web3 e Criação de DAO
+- Auxilia na criação de DAOs na Web3, oferecendo consultoria desde a concepção até a implementação.
+- Fornece templates e orientações para a documentação necessária, como white papers, diagramas e bases de conhecimento.
+
+### Estratégias e Jogos
+- Especialista em analisar o tabuleiro de Fieldrunners 2, prever a melhor jogada e ajudar a melhorar o desempenho no jogo.
+
+### Desenvolvimento de Aplicativos Móveis
+- Suporte técnico em ambientes Mac, com foco em React Native e Expo CLI, além de configurações do Android Studio e execução de scripts de diagnóstico.
+
+### Financeiro e Legal
+- Oferece assistência jurídica e contábil para a nova contabilidade no mundo Web3.
+- Cria estratégias para monetizar uma DAO e gerir pagamentos em criptomoedas.
+
+### Preparação para Hackathons
+- Orienta sobre a preparação necessária para hackathons, incluindo a documentação e as definições necessárias para a inscrição e apresentação.
+
+### Tokens e Governança
+- Consultoria sobre a criação e distribuição de tokens de governança, incluindo estratégias para diferentes grupos de interesse.
+- Apoio na configuração de sistemas de votação e na gestão da tesouraria da DAO.
+
+## Comandos da IA
+
+### `create_report`
+Gera um relatório com uma apresentação da DAO, objetivos, distribuição de tokens e perfil de investidor.
+
+### `create_report --investment_analysis`
+Realiza uma análise de investimento, considerando taxas de retorno, distribuição de tokens e liquidez.
+
+## Diagramas Mermaid
+Utiliza a sintaxe Mermaid para criar diagramas visuais que mapeiam a estrutura e os processos da sua DAO.
+
+## Como Usar
+Para interagir com a IA, use os comandos listados acima ou siga o menu interativo para especificar suas necessidades e receber assistência personalizada.
+
+---
+
+Skip to content
+Mermaid
+
+Search
+⌘
+K
+Main Navigation
+Docs
+Tutorials
+Integrations
+Contributing
+Latest News
+
+10.9.0
+💻 Live Editor
+
+Sidebar Navigation
+📔 Introduction
+About Mermaid
+
+Getting Started
+
+Syntax and Configuration
+
+📊 Diagram Syntax
+Flowchart
+
+Sequence Diagram
+
+Class Diagram
+
+State Diagram
+
+Entity Relationship Diagram
+
+User Journey
+
+Gantt
+
+Pie Chart
+
+Quadrant Chart
+
+Requirement Diagram
+
+Gitgraph (Git) Diagram
+
+C4 Diagram 🦺⚠️
+
+Mindmaps
+
+Timeline
+
+Zenuml
+
+Sankey
+
+XYChart 🔥
+
+Block Diagram 🔥
+
+Other Examples
+
+📚 Ecosystem
+Mermaid Chart
+
+Tutorials
+
+Integrations - Community
+
+Integrations - Create
+
+⚙️ Deployment and Configuration
+Configuration
+
+API-Usage
+
+Mermaid API Configuration
+
+Mermaid Configuration Options
+
+Directives
+
+Theming
+
+Math
+
+Accessibility
+
+Mermaid CLI
+
+FAQ
+
+🙌 Contributing
+Getting Started
+
+Contributing to Mermaid
+
+Adding Diagrams
+
+Questions and Suggestions
+
+Security
+
+📰 Latest News
+Announcements
+
+Blog
+
+On this page
+Table of Contents for current page
+An example of a mindmap.
+Syntax
+Different shapes
+Square
+Rounded square
+Circle
+Bang
+Cloud
+Hexagon
+Default
+Icons
+Classes
+Unclear indentation
+Markdown Strings
+Integrating with your library/website.
+Mindmap
+Mindmap: This is an experimental diagram for now. The syntax and properties can change in future releases. The syntax is stable except for the icon integration which is the experimental part.
+
+"A mind map is a diagram used to visually organize information into a hierarchy, showing relationships among pieces of the whole. It is often created around a single concept, drawn as an image in the center of a blank page, to which associated representations of ideas such as images, words and parts of words are added. Major ideas are connected directly to the central concept, and other ideas branch out from those major ideas." Wikipedia
+
+An example of a mindmap.
+Code:
+mermaid
+mindmap
+  root((mindmap))
+    Origins
+      Long history
+      ::icon(fa fa-book)
+      Popularisation
+        British popular psychology author Tony Buzan
+    Research
+      On effectiveness<br/>and features
+      On Automatic creation
+        Uses
+            Creative techniques
+            Strategic planning
+            Argument mapping
+    Tools
+      Pen and paper
+      Mermaid
+
+⌘ + Enter
+|
+Run ▶
+mindmap
+Origins
+Long history
+Popularisation
+British popular psychologyauthor Tony Buzan
+Research
+On effectivenessand features
+On Automatic creation
+Uses
+Creative techniques
+Strategic planning
+Argument mapping
+Tools
+Pen and paper
+Mermaid
+Syntax
+The syntax for creating Mindmaps is simple and relies on indentation for setting the levels in the hierarchy.
+
+In the following example you can see how there are 3 different levels. One with starting at the left of the text and another level with two rows starting at the same column, defining the node A. At the end there is one more level where the text is indented further than the previous lines defining the nodes B and C.
+
+mindmap
+    Root
+        A
+            B
+            C
+In summary is a simple text outline where there is one node at the root level called Root which has one child A. A in turn has two children Band C. In the diagram below we can see this rendered as a mindmap.
+
+Code:
+mermaid
+mindmap
+Root
+    A
+      B
+      C
+⌘ + Enter
+|
+Run ▶
+Root
+A
+B
+C
+In this way we can use a text outline to generate a hierarchical mindmap.
+
+Different shapes
+Mermaid mindmaps can show nodes using different shapes. When specifying a shape for a node the syntax is similar to flowchart nodes, with an id followed by the shape definition and with the text within the shape delimiters. Where possible we try/will try to keep the same shapes as for flowcharts, even though they are not all supported from the start.
+
+Mindmap can show the following shapes:
+
+Square
+Code:
+mermaid
+mindmap
+    id[I am a square]
+⌘ + Enter
+|
+Run ▶
+I am a square
+Rounded square
+Code:
+mermaid
+mindmap
+    id(I am a rounded square)
+⌘ + Enter
+|
+Run ▶
+I am a rounded square
+Circle
+Code:
+mermaid
+mindmap
+    id((I am a circle))
+⌘ + Enter
+|
+Run ▶
+I am a circle
+Bang
+Code:
+mermaid
+mindmap
+    id))I am a bang((
+⌘ + Enter
+|
+Run ▶
+I am a bang
+Cloud
+Code:
+mermaid
+mindmap
+    id)I am a cloud(
+⌘ + Enter
+|
+Run ▶
+I am a cloud
+Hexagon
+Code:
+mermaid
+mindmap
+    id{{I am a hexagon}}
+⌘ + Enter
+|
+Run ▶
+I am a hexagon
+Default
+Code:
+mermaid
+mindmap
+    I am the default shape
+⌘ + Enter
+|
+Run ▶
+I am the default shape
+More shapes will be added, beginning with the shapes available in flowcharts.
+
+Icons and classes
+Icons
+As with flowcharts you can add icons to your nodes but with an updated syntax. The styling for the font based icons are added during the integration so that they are available for the web page. This is not something a diagram author can do but has to be done with the site administrator or the integrator. Once the icon fonts are in place you add them to the mind map nodes using the ::icon() syntax. You place the classes for the icon within the parenthesis like in the following example where icons for material design and Font Awesome 5 are displayed. The intention is that this approach should be used for all diagrams supporting icons. Experimental feature: This wider scope is also the reason Mindmaps are experimental as this syntax and approach could change.
+
+Code:
+mermaid
+mindmap
+    Root
+        A
+        ::icon(fa fa-book)
+        B(B)
+        ::icon(mdi mdi-skull-outline)
+⌘ + Enter
+|
+Run ▶
+Root
+A
+B
+Classes
+Again the syntax for adding classes is similar to flowcharts. You can add classes using a triple colon following a number of css classes separated by space. In the following example one of the nodes has two custom classes attached urgent turning the background red and the text white and large increasing the font size:
+
+Code:
+mermaid
+mindmap
+    Root
+        A[A]
+        :::urgent large
+        B(B)
+        C
+⌘ + Enter
+|
+Run ▶
+Root
+A
+B
+C
+These classes need to be supplied by the site administrator.
+
+Unclear indentation
+The actual indentation does not really matter only compared with the previous rows. If we take the previous example and disrupt it a little we can see how the calculations are performed. Let us start with placing C with a smaller indentation than B but larger then A.
+
+mindmap
+    Root
+        A
+            B
+          C
+This outline is unclear as B clearly is a child of A but when we move on to C the clarity is lost. C is not a child of B with a higher indentation nor does it have the same indentation as B. The only thing that is clear is that the first node with smaller indentation, indicating a parent, is A. Then Mermaid relies on this known truth and compensates for the unclear indentation and selects A as a parent of C leading till the same diagram with B and C as siblings.
+
+Code:
+mermaid
+mindmap
+Root
+    A
+        B
+      C
+⌘ + Enter
+|
+Run ▶
+Root
+A
+B
+C
+Markdown Strings
+The "Markdown Strings" feature enhances mind maps by offering a more versatile string type, which supports text formatting options such as bold and italics, and automatically wraps text within labels.
+
+Code:
+mermaid
+mindmap
+    id1["`**Root** with
+a second line
+Unicode works too: 🤓`"]
+      id2["`The dog in **the** hog... a *very long text* that wraps to a new line`"]
+      id3[Regular labels still works]
+⌘ + Enter
+|
+Run ▶
+Root witha second lineUnicode works too: 🤓
+The dog in the hog... avery long text that wrapsto a new line
+Regular labels still works
+Formatting:
+
+For bold text, use double asterisks ** before and after the text.
+For italics, use single asterisks * before and after the text.
+With traditional strings, you needed to add
+tags for text to wrap in nodes. However, markdown strings automatically wrap text when it becomes too long and allows you to start a new line by simply using a newline character instead of a
+tag.
+Integrating with your library/website.
+Mindmap uses the experimental lazy loading & async rendering features which could change in the future. From version 9.4.0 this diagram is included in mermaid but use lazy loading in order to keep the size of mermaid down. This is important in order to be able to add additional diagrams going forward.
+
+You can still use the pre 9.4.0 method to add mermaid with mindmaps to a web page:
+
+html
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@9.3.0/dist/mermaid.esm.min.mjs';
+  import mindmap from 'https://cdn.jsdelivr.net/npm/@mermaid-js/mermaid-mindmap@9.3.0/dist/mermaid-mindmap.esm.min.mjs';
+  await mermaid.registerExternalDiagrams([mindmap]);
+</script>
+From version 9.4.0 you can simplify this code to:
+
+html
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+</script>
+You can also refer the implementation in the live editor here to see how the async loading is done.
+
+Edit this page on GitHub
+Previous page
+C4 Diagram 🦺⚠️
+Next page
+Timeline
+
+---
+
+* Mindmap example
+```mermaid
+mindmap
+  root((mindmap))
+    Origins
+      Long history
+      ::icon(fa fa-book)
+      Popularisation
+        British popular psychology author Tony Buzan
+    Research
+      On effectivness<br/>and features
+      On Automatic creation
+        Uses
+            Creative techniques
+            Strategic planning
+            Argument mapping
+    Tools
+      Pen and paper
+      Mermaid
+
+```
