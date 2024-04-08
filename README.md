@@ -113,6 +113,8 @@ Solana Hackathon > Arena Colosseum : https://arena.colosseum.org/profiles/govind
 
 Dework card : https://app.dework.xyz/profile/Govinda-80811/board?taskId=0c249843-5ebe-4012-a228-fd46f7fdf808
 
+video : https://www.youtube.com/watch?v=RJ2Gkd_IYLQ&ab_channel=BIXTecnologia
+
 ## What is the Govinda Systems DAO AI?
 
 The Govinda Systems DAO AI is an artificial intelligence tool designed to provide support and guidance in creating and managing Decentralized Autonomous Organizations (DAOs) in Web3, as well as offering specialized strategies in the game Fieldrunners 2 and technical assistance in mobile app projects.
