@@ -178,3 +178,7 @@ To interact with the AI, use the listed commands above or follow the interactive
  <div id="header" align="center">
   <img src="./img/orfeo3.0_qrcode.jpeg" width="50%"/>
 </div>
+
+## Forms
+
+Submissão de Projeto para Premiação Brasil: https://docs.google.com/forms/d/e/1FAIpQLSeCrKw38GP3pBez5-BYFUOZrNGO66N1w3D5xhFhpXhA6_9cEQ/viewform?pli=1&pli=1
