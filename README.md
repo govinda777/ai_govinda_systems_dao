@@ -11,19 +11,38 @@ Bem-vindo ao repositório da Govinda Systems DAO, sua assistente de inteligênci
 </div>
 
 ```mermaid
-graph LR
-    A[The Artivist Protocol] --> B(Objective)
-    A --> C(Purpose)
-    A --> D(How to Join the Community)
-    A --> E(Token)
-    E --> F(How does the distribution of profits of our Token work?)
-    E --> G(How to Swap Sol for TAP?)
-    E --> H(How to Audit Us?)
-    E --> I(How does this protocol distribute profits?)
-    E --> J(How much will I pay in fees to buy a TAP token?)
-    E --> K(How much will I pay in fees to swap 1 TAP token for Sol?)
-    A --> L(How to Contribute?)
-    A --> M(How to Contribute and Get Paid for Your Contribution?)
+mindmap
+direction LR
+root[Govinda Systems DAO - IA Especializada]
+    subbranch1[Links]
+    subbranch2[O que é a Govinda Systems DAO IA?]
+    subbranch3[Especializações]
+        subbranch3_1[Web3 e Criação de DAO]
+        subbranch3_2[Estratégias e Jogos]
+        subbranch3_3[Desenvolvimento de Aplicativos Móveis]
+        subbranch3_4[Financeiro e Legal]
+        subbranch3_5[Preparação para Hackathons]
+        subbranch3_6[Tokens e Governança]
+    subbranch4[Comandos da IA]
+        subbranch4_1[`create_report`]
+        subbranch4_2[`create_report --investment_analysis`]
+    subbranch5[Diagramas Mermaid]
+    subbranch6[Como Usar]
+
+root --> subbranch1
+root --> subbranch2
+root --> subbranch3
+    subbranch3 --> subbranch3_1
+    subbranch3 --> subbranch3_2
+    subbranch3 --> subbranch3_3
+    subbranch3 --> subbranch3_4
+    subbranch3 --> subbranch3_5
+    subbranch3 --> subbranch3_6
+root --> subbranch4
+    subbranch4 --> subbranch4_1
+    subbranch4 --> subbranch4_2
+root --> subbranch5
+root --> subbranch6
 
 ```
 
